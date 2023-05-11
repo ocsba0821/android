@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string-array name="eyes_array">
+        <item>""</item>
+        <item>눈이 붉어요</item>
+        <item>눈이 안떠져요</item>
+        <item>눈이 부었어요</item>
+        <item>날카로운 눈</item>
+    </string-array>
+    <string-array name="sub_eyes_array_red">
+        <item>아래에서 선택</item>
+        <item>충혈</item>
+        <item>각막염</item>
+        <item>부음</item>
+        <item>날카로운 눈</item>
+        <item>이전</item>
+    </string-array>
+</resources>

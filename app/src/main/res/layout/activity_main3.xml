@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:text="어느 부위가 아프신가요?"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/options_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:padding="10sp">
+
+            <RadioButton
+                android:id="@+id/option1_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="눈"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/option2_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="코"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/option3_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="입"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/option4_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="귀"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/option5_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="기타"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="120sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center_horizontal"
+            android:text="제출"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
